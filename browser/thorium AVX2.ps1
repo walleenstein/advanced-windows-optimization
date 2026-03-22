@@ -1,0 +1,1 @@
+Invoke-WebRequest "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.300/thorium_AVX2_mini_installer.exe" -OutFile "$env:TEMP\thorium_AVX2_installer.exe"; Start-Process "$env:TEMP\thorium_AVX2_installer.exe"
